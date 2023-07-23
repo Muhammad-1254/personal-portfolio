@@ -9,7 +9,7 @@ import moment from 'moment'
 
 
 
-
+export const revalidate = 3600
 export interface IPortfolio {
   _id:string
   title:string
