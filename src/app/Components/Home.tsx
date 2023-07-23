@@ -20,7 +20,7 @@ interface IAuthor {
   description:string
 }
 
-
+export const revalidate = 3600
  async function  Hero() {
  
 
