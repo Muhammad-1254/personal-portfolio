@@ -43,7 +43,7 @@ function SocialLinks() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '#',
+      href: 'https://drive.google.com/file/d/1wtyXlrl1FAtumcrOzO3A_AYTge5OXRxK/view?usp=drive_link',
       style: 'rounded-br-md',
       download: true,
     },
