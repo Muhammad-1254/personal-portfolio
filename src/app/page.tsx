@@ -8,8 +8,7 @@ import Portfolio from './Components/Portfolio'
 import SocialLinks from './Components/SocialLinks'
 import Contact from './Components/Contact'
 import Navbar from './Components/Navbar'
-import { client } from '../../sanity/lib/client'
-import { GetServerSideProps } from 'next'
+
 
 
 
