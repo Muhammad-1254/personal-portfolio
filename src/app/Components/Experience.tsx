@@ -68,7 +68,7 @@ function Experience() {
   return (
     <div id='Experience' className=' py-10 bg-gradient-to-b to-gray-800 from-black w-screen h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-        <div >
+        <div id='Experience'  >
           <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
           <p className='flex justify-start gap-2 md:gap:4 items-center py-6'>This is technologies I have Work on <MdOutlineKeyboardArrowRight className='rotate-90' size={30}/></p>
         </div>
