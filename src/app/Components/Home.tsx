@@ -41,6 +41,8 @@ export const revalidate = 3600
 
   
   return (
+    <div className='overflow-x-hidden'>
+    
 
     <div id='Home'
       
@@ -83,6 +85,7 @@ export const revalidate = 3600
             />
         </div>
       </div>
+    </div>
     </div>
 
   );

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import {motion} from 'framer-motion'
+import { useRouter } from 'next/navigation';
 
 function Navbar() {
   const [nav,setNav] = useState(false);
@@ -34,13 +35,15 @@ function Navbar() {
  },
  
   ];
+
+  const router = useRouter()
   return (
 
     <div
       className="flex justify-between items-center  h-20  w-screen
     text-white fixed bg-black px-4 z-50"
     >
-      <div>
+      <div onClick={()=>router.push('/')}>
         <h1 className="text-5xl cursor-pointer  font-signature ml-2 mt-3">Portfolio</h1>
       </div>
       <ul className="hidden md:flex">

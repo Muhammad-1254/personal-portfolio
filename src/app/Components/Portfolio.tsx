@@ -49,6 +49,8 @@ async function Portfolio() {
  
   
   return (
+    <div className='overflow-x-hidden'>
+  
     <div
       
       className=" bg-gradient-to-b from-gray-800 to-black  w-screen text-white  pb-10"
@@ -107,6 +109,7 @@ async function Portfolio() {
 
         </div>
       </div>
+    </div>
     </div>
   );
 }

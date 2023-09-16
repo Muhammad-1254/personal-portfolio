@@ -66,6 +66,8 @@ function Experience() {
  
     ]
   return (
+    <div className='overflow-x-hidden'>
+
     <div id='Experience' className=' py-10 bg-gradient-to-b to-gray-800 from-black w-screen h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div id='Experience'  >
@@ -83,6 +85,7 @@ function Experience() {
         
         </div>
       </div>
+    </div>
     </div>
   );
 }
